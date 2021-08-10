@@ -18,7 +18,6 @@ export const Coins = () => {
    
     return (
         <div>
-          <Container>
             {loading ? (<Loading loading={loading} />) : (
                 <div>
                     {error && (
@@ -26,19 +25,19 @@ export const Coins = () => {
                     )}
                     {
                       data.map((d) => (
-                        <Container key={d[1].Id}>
-                          <CoinCard 
+                          <CoinCard
+                            key={d[1].Id} 
                             name={d[1].FullName}
                             description={d[1].Description}
                             url={d[1].Url}
                             logoUrl={d[1].ImageUrl}
+                            assetTokenStatus={d[1].AssetTokenStatus}
+                            proofType={d[1].ProofType}
                           />
-                        </Container>
                       ))
                     }
                 </div>
             )}
-          </Container>
         </div>
     )
 

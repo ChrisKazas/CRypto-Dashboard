@@ -20,9 +20,10 @@ export const useApi = () => {
             for(const key of Object.keys(obj)){
                 arr.push(obj[key])
             }
-
+            console.log(arr)
             setData(arr)
         }catch(e){
+            setError('Error: ')
             console.log(e)
         }finally{
             console.log('Loading done')

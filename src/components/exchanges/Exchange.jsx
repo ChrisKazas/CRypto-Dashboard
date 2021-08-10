@@ -10,8 +10,7 @@ export default function Exchange() {
     console.log('Calling from Exchange.jsx')
   
     return (
-        <div>
-          <Container>
+        <div style={{float: 'right'}}>
             {loading ? (<Loading loading={loading} />) : (
                 <div>
                     {error && (
@@ -19,20 +18,19 @@ export default function Exchange() {
                     )}
                     {
                       data.map((d) => (
-                        <Container key={d.Id}>
                           <ExchangeCard src={`https://www.cryptocompare.com${d.LogoUrl}`}
                                         name={d.Name}
                                         description={d.Description}
                                         href={d.AffiliateURL}
                                         logoUrl={d.LogoUrl}
                                         centralizationType={d.CentralizationType}
+                                        key={d.Id}
+                                        items={d.ItemType}
                           />
-                        </Container>
                       ))
                     }
                 </div>
             )}
-          </Container>
         </div>
     )
 }

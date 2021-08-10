@@ -5,8 +5,8 @@ export const ExchangeDD = (props) => {
 
     // console.log(props.data)
 
-    let e = Object.entries(props.data)['CoinInfo']
-    console.log('From DD: ',e)
+    // let e = Object.entries(props.data)
+    // console.log('From DD: ',e)
     
     // let dds = props.
 
