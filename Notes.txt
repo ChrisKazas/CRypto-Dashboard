@@ -1,0 +1,63 @@
+EXCHANGE OBJECT
+
+Id: "942470", Name: "Curve.fi", Url: "/exchanges/curvefi/overview", LogoUrl: "/media/37748223/curvefi.png", ItemType: Array(3), …}
+AffiliateURL: "https://curve.fi/"
+CentralizationType: "Decentralized"
+Country: "Unknown"
+DISPLAYTOTALVOLUME24H: {BTC: "Ƀ 582.78"}
+DepositMethods: "Cryptocurrencies"
+Description: "The Curve DAO officially launched in August 2020. The DAO will allow liquidity providers to take decisions on adding new pools, changing pool parameters, adding CRV incentives and many other aspects of the Curve protocol.\nThose resources aim to help new and existing users to become familiar with the Curve protocol, the Curve DAO and the CRV token."
+Fees: "Unknown"
+FullAddress: "Unknown"
+Grade: "-"
+GradePoints: 0
+GradePointsSplit: {Legal: "0", KYCAndTransactionRisk: "0", Team: "0", DataProvision: "0", AssetQualityAndDiversity: "0", …}
+Id: "942470"
+InternalName: "curve"
+ItemType: (3) ["Cryptocurrency", "Stable Coins", "Tokens"]
+LogoUrl: "/media/37748223/curvefi.png"
+Name: "Curve.fi"
+OrderBook: false
+Rating: {One: 0, Two: 0, Three: 0, Four: 0, Five: 0, …}
+Recommended: false
+SortOrder: "321"
+Sponsored: false
+TOTALVOLUME24H: {BTC: 582.77512019169}
+Trades: true
+Url: "/exchanges/curvefi/overview"
+WithdrawalMethods: "Cryptocurrencies"
+
+
+COIN OBJECT
+
+
+Algorithm: "SHA-256"
+AssetLaunchDate: "2009-01-03"
+AssetTokenStatus: "N/A"
+BlockNumber: 694853
+BlockReward: 6.25
+BlockTime: 514
+CoinName: "Bitcoin"
+ContentCreatedOn: 1417635237
+DecimalPoints: 8
+Description: "Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Although other cryptocurrencies have come before, Bitcoin is the first decentralized cryptocurrency - Its reputation has spawned copies and evolution in the space.With the largest variety of markets and the biggest value - having reached a peak of 318 billion USD - Bitcoin is here to stay. As with any new invention, there can be improvements or flaws in the initial model however the community and a team of dedicated developers are pushing to overcome any obstacle they come across. It is also the most traded cryptocurrency and one of the main entry points for all the other cryptocurrencies. The price is as unstable as always and it can go up or down by 10%-20% in a single day.Bitcoin is an SHA-256 POW coin with almost 21,000,000 total minable coins. The block time is 10 minutes. See below for a full range of Bitcoin markets where you can trade US Dollars for Bitcoin, crypto to Bitcoin and many other fiat currencies too.Bitcoin Whitepaper PDF - A Peer-to-Peer Electronic Cash SystemBlockchain data provided by: Blockchain (main source), Blockchair (backup)"
+Difficulty: 14496442856349
+FullName: "Bitcoin (BTC)"
+Id: "1182"
+ImageUrl: "/media/37746251/btc.png"
+IsTrading: true
+IsUsedInDefi: 0
+IsUsedInNft: 0
+MaxSupply: 20999999.9769
+MktCapPenalty: 0
+Name: "BTC"
+NetHashesPerSecond: 121131805401462600000
+PlatformType: "blockchain"
+ProofType: "PoW"
+Rating: {Weiss: {…}}
+SortOrder: "1"
+Sponsored: false
+Symbol: "BTC"
+Taxonomy: {Access: "Permissionless", FCA: "Exchange", FINMA: "Payment", Industry: "Financial and Insurance Activities", CollateralizedAsset: "No", …}
+TotalCoinsMined: 18780337
+Url: "/coins/btc/overview"
